@@ -1,0 +1,35 @@
+package com.cf08.natural_ordering_and_the_comparable_interface;
+
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.List;
+import java.util.Set;
+import java.util.TreeSet;
+
+public class App {
+	public static void main(String[] args) {
+		List<String> list = new ArrayList<String>();		
+		Set<String> set = new TreeSet<String>();
+		
+		addElement(list);
+		addElement(set);
+		
+		showElements(list);
+		showElements(set);
+	}
+	
+	private static void addElement(Collection<String> col) {
+		col.add("joe");
+		col.add("sue");
+		col.add("juliet");
+		col.add("claire");
+		col.add("mike");
+	}
+	
+	private static void showElements(Collection<String> col) {
+		for(String name : col) {
+			System.out.println(name);			
+		}
+	}
+
+}

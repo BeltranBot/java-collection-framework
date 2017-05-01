@@ -1,0 +1,9 @@
+package com.cf08.natural_ordering_and_the_comparable_interface;
+
+public class App {
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

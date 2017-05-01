@@ -1,0 +1,15 @@
+package com.cf09.queues;
+
+import java.util.Queue;
+import java.util.concurrent.ArrayBlockingQueue;
+
+public class App {
+	
+	public static void main(String[] args) {
+		// (head) <- 000000000000000000000000000 <- (tail) FIFO (First In First Out)
+		Queue<Integer> q1 = new ArrayBlockingQueue<Integer>(3);
+		
+		
+	}
+
+}

@@ -1,0 +1,12 @@
+package com.cf12.deciding_which_java_collection_to_use;
+
+public class App {
+	public static void main(String[] args) {
+		/*
+		 * Consider:
+		 * 1. what you need the collection to do
+		 * 2. are you using the fastest collection for your purposes
+		 * */		
+	}
+
+}

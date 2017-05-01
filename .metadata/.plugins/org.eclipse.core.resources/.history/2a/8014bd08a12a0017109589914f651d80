@@ -1,0 +1,16 @@
+package com.cf04.Sorted_Maps_and_the_Map_Interface;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.TreeMap;
+
+public class App {
+	public static void main(String[] args) {
+		HashMap<Integer, String> hashMap = new HashMap<Integer, String>();
+		// LinkedHashMap mantains the order of the hashmap
+		LinkedHashMap<Integer, String> linkedHashMap = new LinkedHashMap<Integer, String>();
+		TreeMap<Integer, String> treeMap = new TreeMap<Integer, String>();
+		
+	}
+
+}

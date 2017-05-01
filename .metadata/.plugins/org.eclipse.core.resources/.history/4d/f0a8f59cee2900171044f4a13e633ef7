@@ -1,0 +1,27 @@
+package com.cf02.LinkedList_and_the_List_Interface;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+/*
+ * LInkedList and the List Interface
+ * */
+
+public class App {
+	
+	public static void main(String[] args) {
+		ArrayList<Integer> arrayList = new ArrayList<Integer>();
+		LinkedList<Integer> linkedList = new LinkedList<Integer>();
+		
+		doTimings("ArrayList", arrayList);
+		doTimings("LinkedList", linkedList);
+		
+	}
+	
+	private static void doTimings(String Type, List<Integer> list) {
+		
+		
+	}
+
+}

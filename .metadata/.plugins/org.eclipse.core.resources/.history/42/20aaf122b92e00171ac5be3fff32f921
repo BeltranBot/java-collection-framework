@@ -1,0 +1,20 @@
+package com.cf13.complex_data_structures;
+
+public class App {
+	
+	public static String[] vehicles = {
+			"ambulance", "helicopter", "lifeboat"
+	};
+	
+	public static String[][] drivers = {
+			{"fred", "sue", "pete"},
+			{"sue", "richard", "bob", "fred"},
+			{"pete", "mary", "bob"}
+			
+	};
+	
+	public static void main(String[] args) {
+				
+	}
+
+}

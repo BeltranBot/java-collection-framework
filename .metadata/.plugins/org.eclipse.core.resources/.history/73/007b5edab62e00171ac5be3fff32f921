@@ -1,0 +1,38 @@
+package com.cf12.deciding_which_java_collection_to_use;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class App {
+	public static void main(String[] args) {
+		/*
+		 * Consider:
+		 * 1. what you need the collection to do
+		 * 2. are you using the fastest collection for your purposes
+		 * (think about insertion/deletion, retrieval and traversal)
+		 * */
+	
+		//////////////// LISTS ///////////////////////////
+		// Store lists of objects
+		// Duplicates are allowed
+		// Objects remain in order
+		// Elements are indexed via an integer
+		// cf. shopping list
+		// Checking for particular item in list is slow
+		// Looking an item up by index is fast
+		// Iterating through lists is relatively fast
+		// Note: you can sort lists if you want to
+		
+		// If you only add or remove items at end of list, user ArrayLists
+		List<String> list1 = new ArrayList<String>();
+		
+		// Removing or adding items elsewhere in the lists?
+		List<String> list2 = new LinkedList<String>();
+		
+		///////////////// SETS ///////////
+		
+		// Only store unique values
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.cf09.queues;
+
+public class App {
+	
+	public static void main(String[] args) {
+		// (head) <- 000000000000000000000000000 <- (tail) FIFO (First In Frist Out)
+		
+	}
+
+}

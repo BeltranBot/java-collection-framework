@@ -1,0 +1,14 @@
+package com.cf02.LinkedList_and_the_List_Interface;
+
+/*
+ * LInkedList and the List Interface
+ * */
+
+public class App {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

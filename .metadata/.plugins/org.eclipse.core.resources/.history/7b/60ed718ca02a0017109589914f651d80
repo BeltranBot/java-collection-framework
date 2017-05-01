@@ -1,0 +1,12 @@
+package com.cf04.Sorted_Maps_and_the_Map_Interface;
+
+import java.util.HashMap;
+
+public class App {
+	public static void main(String[] args) {
+		HashMap<Integer, String> hashMap = new HashMap<Integer, String>();
+		
+		
+	}
+
+}
